@@ -1,0 +1,25 @@
+#mainBody {
+	margin: 0px;
+	margin-bottom: 2px;
+	padding: 3px;
+	/*border: 1px solid #dedede;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: left;
+	min-height: 30px;
+	width: 1180px;
+	position: relative;
+	/*background-color:#008EC3;*/
+	display: none;
+}
+
+#mainCope {
+	position: absolute;
+	z-index: 1000000;
+	background: white;
+	/*width:500px;
+	height:500px;*/
+	opacity: 0.5;
+	display: none;
+}

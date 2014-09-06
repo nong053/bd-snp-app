@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+
+.dashboard2Box {
+	widht: auto;
+	height: auto;
+	/*background:red;*/
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 5px;
+	margin: 5px;
+}
+
+.dashboard2Box #boxLeft {
+	width: 275px;
+	height: 475px; //
+	background: red;
+	float: left;
+	margin: 2px;
+}
+
+.dashboard2Box #boxRight {
+	width: auto;
+	height: 475px; //
+	background: blue;
+	float: right;
+	margin: 0px;
+}
+
+#gridHeighter {
+	height: 469px;
+}
+
+.mainRow { //
+	background: blue;
+}
+
+.box {
+	width: 284px;
+	height: 230px; //
+	background: red;
+	float: left;
+	margin: 2px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.box .title {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.box .title .title_r {
+	width: auto;
+	float: left;
+	font-weight: bold;
+	color: black;
+	pading: 5px;
+	display: block;
+}
+
+.box .title .title_l {
+	float: left;
+	width: 150px;
+}
+
+.box .content {
+	padding: 2px;
+}
+
+.box .content#contentRegion {
+	
+}
+
+.box .boxEvent {
+	width: 270px;
+	height: 190px;
+	overflow: scroll;
+	background-color: #FFFFFF;
+	border-top: 1px solid #cccccc;
+	padding: 5px;
+}
+
+.box .boxEvent ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.box .boxEvent ul li { /*display:block;*/
+	border-bottom: 1px solid #DBEEF3;
+	margin: 0px;
+	padding: 2px;
+}
+
+.box .boxEvent ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+.box .boxEvent ul li a:hover {
+	color: blue;
+	background: #DBEEF3;
+}
+
+.br {
+	clear: both;
+}
+
+.text_string {
+	text-align: left;
+}
+
+.text_number {
+	text-align: right;
+}
+
+.inlinesparkline {
+	width: 100px;
+	height: 20px;
+}
+
+.textL {
+	text-align: left;
+}
+
+.textR {
+	text-align: right;
+}
