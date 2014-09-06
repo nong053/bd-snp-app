@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+#dashboard5Box {
+	widht: auto;
+	height: auto; //
+	background: red;
+}
+
+.mainRow {
+	
+}
+
+.box {
+	width: 577px;
+	height: 340px;
+	float: left;
+	margin: 2px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	background: white;
+}
+
+.box .title {
+	padding: 5px;
+	border-radius: 5px;
+	background: #feeebd;
+}
+
+.box .title .tile_l {
+	width: 170px;
+	float: left;
+	font-weight: bold;
+}
+
+.box .title .tile_r {
+	float: left;
+	width: 150px;
+}
+
+.box .content {
+	padding: 2px;
+}
+
+.br {
+	clear: both;
+}
+
+.textL {
+	text-align: left;
+}
+
+.textR {
+	text-align: right;
+}
